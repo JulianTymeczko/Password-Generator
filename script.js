@@ -11,7 +11,7 @@ function writePassword() {
     var numericValues = "1234567890";
     var specialChar = "#$%&'()*+,-./:;<!=>?@[^] _`{|}~";
 
-    var passwordLength = (prompt("How long should the password be?"));
+    var passwordLength = (prompt("How long should the password be from 8 to 128?"));
     var realPasswordLength = parseInt(passwordLength)
     
     
